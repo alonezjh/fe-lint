@@ -1,0 +1,31 @@
+{
+  "name": "@iyue/fe-lint",
+  "version": "1.0.1",
+  "description": "前端项目代码质量配置，包含eslint、stylelint、prettier相关配置文件合集",
+  "keywords": [
+    "eslint",
+    "stylelint",
+    "prettier"
+  ],
+  "homepage": "https://github.com/alonezjh/fe-lint",
+  "bugs": {
+    "url": "https://github.com/alonezjh/fe-lint/issues",
+    "email": "alonezjh@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alonezjh/fe-lint.git"
+  },
+  "author": "alonezjh@gmail.com",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build tsconfig.json"
+  },
+  "dependencies": {
+    "@umijs/fabric": "^2.3.1"
+  }
+}
